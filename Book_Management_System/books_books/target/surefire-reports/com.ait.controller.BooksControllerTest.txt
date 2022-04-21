@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.ait.controller.BooksControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 24.729 s <<< FAILURE! - in com.ait.controller.BooksControllerTest
+test1  Time elapsed: 0.927 s  <<< ERROR!
+java.lang.RuntimeException: com.netflix.client.ClientException: Load balancer does not have available server for client: order-server
+	at com.ait.controller.BooksControllerTest.test1(BooksControllerTest.java:28)
+Caused by: com.netflix.client.ClientException: Load balancer does not have available server for client: order-server
+	at com.ait.controller.BooksControllerTest.test1(BooksControllerTest.java:28)
+

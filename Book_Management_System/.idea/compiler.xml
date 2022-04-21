@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="book_jwt" />
+        <module name="books_order" />
+        <module name="books_common" />
+        <module name="books_user" />
+        <module name="books_books" />
+        <module name="books_eruka" />
+        <module name="books_gateway" />
+        <module name="demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="books_gateway" options="" />
+      <module name="books_order" options="" />
+      <module name="demo" options="" />
+    </option>
+  </component>
+</project>
